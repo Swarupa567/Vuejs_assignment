@@ -4,11 +4,18 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service postcss css/tailwind.css -o public/build/tailwind.css build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "axios": "^0.21.4",
     "core-js": "^3.6.5",
+    "postcss": "^7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "touch": "^3.1.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -18,7 +25,8 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-cli-plugin-tailwind": "~2.0.6"
   },
   "eslintConfig": {
     "root": true,
