@@ -1,0 +1,11 @@
+Resources used to complete this project:
+
+https://dev.to/razcodes/how-to-setup-tailwind-css-with-visual-studio-code-26f9
+
+https://itnext.io/getting-started-vue-js-and-visual-studio-code-6990f92e918a
+
+https://cli.vuejs.org/guide/creating-a-project.html#vue-create
+
+https://github.com/ThirusOfficial/simple-quiz-app-vue3-tailwind-css
+
+https://www.youtube.com/watch?v=I29WbGeZrBs&t=61s
